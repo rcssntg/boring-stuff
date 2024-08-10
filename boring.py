@@ -186,10 +186,29 @@
 
 # import random, sys, os, math
 
-import sys
-while True:
-    print('Type exit to exit.')
-    response = input()
-    if response == 'exit':
-        sys.exit()
-    print('You typed' + response + '.')
+# import sys
+# while True:
+#     print('Type exit to exit.')
+#     response = input()
+#     if response == 'exit':
+#         sys.exit()
+#     print('You typed' + response + '.')
+# print('What is the value of spam?')
+# spam = int(input())
+
+# if spam == 1:
+#     print('Hello')
+# elif spam == 2:
+#     print('Howdy')
+# else:
+#     print('Greetings')
+# print('For Loops Version')
+# for i in range(1, 11):
+#     print(i)
+    
+
+# print('While Loops Version')
+# i = 1
+# while i < 11:
+#     print(i)
+#     i = i + 1
