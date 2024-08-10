@@ -157,3 +157,7 @@
 # change = money - total
 # print(f'the total amount is {total} and the change is {change}')
 
+# for i in range(0, 10, 3):
+#     print(i)
+# for i in range(5, -1, -1):
+#     print(i)
