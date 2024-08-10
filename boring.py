@@ -163,13 +163,33 @@
 #     print(i)
 
 
-def sophia_bday():
-    print('Happy birthday!')
+# def sophia_bday():
+#     print('Happy birthday!')
     
-print('What is your name?') 
-name = input() 
-print('How old are you?')
-age = input()
+# print('What is your name?') 
+# name = input() 
+# print('How old are you?')
+# age = input()
 
-print(f'Hello {name} you are {age} years old now, that is nice!')
-print(sophia_bday)
+# print(f'Hello {name} you are {age} years old now, that is nice!')
+# print(sophia_bday)
+
+
+
+
+# IMPORTING MODULES
+
+# import random
+
+# for i in range(5):
+#     print(random.randint(1, 11))
+
+# import random, sys, os, math
+
+import sys
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed' + response + '.')
