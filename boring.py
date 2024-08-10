@@ -145,3 +145,15 @@
 #     i = i + 1
     
     
+# for i in range(1, 101):
+#     print(i)
+# print('How much is your money?')
+# money = int(input())
+
+# footlong = 56
+# chizburger = 50
+
+# total = chizburger * 2 + footlong
+# change = money - total
+# print(f'the total amount is {total} and the change is {change}')
+
