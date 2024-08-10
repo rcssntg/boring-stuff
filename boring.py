@@ -109,13 +109,30 @@
 
 
 # Truthy and Falsey
-name = ''
+# name = ''
 
-while not name:
-    print('Enter your name:')
-    name = input()
-print('How many guests will you have?')
-numOfGuests = int(input())
-if numOfGuests:
-    print('Be sure to have enough room for all your guests.')
-print('Done!')
+# while not name:
+#     print('Enter your name:')
+#     name = input()
+# print('How many guests will you have?')
+# numOfGuests = int(input())
+# if numOfGuests:
+#     print('Be sure to have enough room for all your guests.')
+# print('Done!')
+
+
+
+# for Loops
+
+# print('My name is')
+# for i in range(10): 
+#     print('Jimmy Five Times (' + str(i) + ')')
+#     # break
+#     # continue
+
+
+# Gauss
+# total = 0
+# for num in range(101):
+#     total = total + num
+# print(f'The total is {total}')
