@@ -172,7 +172,7 @@
 # age = input()
 
 # print(f'Hello {name} you are {age} years old now, that is nice!')
-# print(sophia_bday)
+# sophia_bday()
 
 
 
@@ -192,7 +192,10 @@
 #     response = input()
 #     if response == 'exit':
 #         sys.exit()
-#     print('You typed' + response + '.')
+#     print(f'You typed {response}.')
+    
+    
+    
 # print('What is the value of spam?')
 # spam = int(input())
 
@@ -212,3 +215,30 @@
 # while i < 11:
 #     print(i)
 #     i = i + 1
+
+
+
+# FUNCTIONS
+
+
+# def hello():
+#     print('Howdy!')
+#     print('Howdy!!!')
+#     print('Hello there.')
+    
+    
+# hello()ronel
+
+# hello()
+# hello()
+
+# def hello(name):
+#     print(f'Hello {name}, how are you?')
+    
+    
+# print('What is your name?')
+# name = input()
+
+# hello(name)
+# print(name)
+
