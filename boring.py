@@ -162,4 +162,14 @@
 # for i in range(5, -1, -1):
 #     print(i)
 
-#  Si Sophia ay mabait pero maasim na bata
+
+def sophia_bday():
+    print('Happy birthday!')
+    
+print('What is your name?') 
+name = input() 
+print('How old are you?')
+age = input()
+
+print(f'Hello {name} you are {age} years old now, that is nice!')
+print(sophia_bday)
