@@ -11,5 +11,15 @@
 
 # print(messages[random.randint(0, len(messages) - 1)])
 
-print('Four score and seven ' + \
-    'years ago...')
+# print('Four score and seven ' + \
+#     'years ago...')
+
+
+# spam = [0, 1, 2, 3, 4, 5]
+# cheese = spam
+# cheese[1] = 'Hello!'
+# print(spam)
+
+
+# PASSING REFERENCES
+
