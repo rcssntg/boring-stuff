@@ -11,6 +11,36 @@
 # ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
 # print(eggs == ham)
 
-spam = {'name': 'Zophie', 'age': 7}
-print(spam['color']) # Expect KeyError
+# spam = {'name': 'Zophie', 'age': 7}
+# print(spam['color']) # Expect KeyError
 
+
+# The keys(), values(), and items() Methods
+
+# spam ={'color': 'red', 'age': 42}
+
+# for v in spam.values():
+#     print(v)
+    
+# for k in spam.keys():
+#     print(k)
+    
+# for i in spam.items():
+#     print(i)
+
+# spam = {'color': 'red', 'age': 42}
+# # print(spam.keys())
+# # print(list(spam.keys()))
+
+
+# for k, v in spam.items():
+#     print(f'Key: {k} Value: {v}')
+
+# Checking Wether a Key or Value Exist in a Dictionary
+
+spam = {'name': 'Zophie', 'age': 7}
+print('name' in spam.keys())
+print('Zophie' in spam.values())
+print('color'  in spam.keys())
+print('color' not in spam.keys())
+print('color' in spam)
