@@ -38,9 +38,23 @@
 
 # Checking Wether a Key or Value Exist in a Dictionary
 
-spam = {'name': 'Zophie', 'age': 7}
-print('name' in spam.keys())
-print('Zophie' in spam.values())
-print('color'  in spam.keys())
-print('color' not in spam.keys())
-print('color' in spam)
+# spam = {'name': 'Zophie', 'age': 7}
+# print('name' in spam.keys())
+# print('Zophie' in spam.values())
+# print('color'  in spam.keys())
+# print('color' not in spam.keys())
+# print('color' in spam)
+
+# get() method
+
+# picnicItems = {'apples': 5, 'cups': 2}
+# print(f'I am bringing {picnicItems.get('cups', 0)} cups.') # f string format
+# print(f'I am bringing {picnicItems.get('egss', 0)} eggs.')
+
+
+# The setdefault() Method
+
+spam ={'name': 'Pooka', 'age': 5}
+print(spam.setdefault('color', 'black'))
+print(spam.setdefault('color', 'white'))
+print(spam)
