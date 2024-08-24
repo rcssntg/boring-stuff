@@ -54,7 +54,43 @@
 
 # The setdefault() Method
 
-spam ={'name': 'Pooka', 'age': 5}
-print(spam.setdefault('color', 'black'))
-print(spam.setdefault('color', 'white'))
-print(spam)
+# spam ={'name': 'Pooka', 'age': 5}
+# print(spam.setdefault('color', 'black'))
+# print(spam.setdefault('color', 'white'))
+# print(spam)
+
+
+# Nested Dictionaries and Lists
+
+# allGuest = {'Alice': {'apples': 5, 'pretzels': 12},
+#             'Bob': {'ham sandwiches': 3, 'apples': 2},
+#             'Carol': {'cups': 3, 'apple pies': 1}}
+
+# def totalBrought(guests, item):
+#     numBrought = 0
+#     for k, v in guests.items():
+#         numBrought = numBrought + v.get(item, 0)
+#     return numBrought
+
+# print('Number of things being brought:')
+# # I will be using f string to shorten the syntax
+# print( f' - Apples  {totalBrought(allGuest, 'apples')}')
+# print( f' - Cups  {totalBrought(allGuest, 'cups')}')
+# print( f' - Cakes  {totalBrought(allGuest, 'cakes')}')
+# print( f' - Ham Sandwiches  {totalBrought(allGuest, 'ham sandwiches')}')
+# print( f' - Apple Pies  {totalBrought(allGuest, 'apple pies')}')
+
+# chat gpt clean verion
+all_guests = {
+    'Alice': {'apples': 5, 'pretzels': 12},
+    'Bob': {'ham sandwiches': 3, 'apples': 2},
+    'Carol': {'cups': 3, 'apple pies': 1}
+}
+
+def total_brought(guests, item):
+    return sum(guest.get(item, 0) for guest in guests.values())
+
+print('Number of things being brought:')
+items = ['apples', 'cups', 'cakes', 'ham sandwiches', 'apple pies']
+for item in items:
+    print(f' - {item.title()}: {total_brought(all_guests, item)}')
