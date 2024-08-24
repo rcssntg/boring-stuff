@@ -81,16 +81,17 @@
 # print( f' - Apple Pies  {totalBrought(allGuest, 'apple pies')}')
 
 # chat gpt clean verion
-all_guests = {
-    'Alice': {'apples': 5, 'pretzels': 12},
-    'Bob': {'ham sandwiches': 3, 'apples': 2},
-    'Carol': {'cups': 3, 'apple pies': 1}
-}
+# all_guests = {
+#     'Alice': {'apples': 5, 'pretzels': 12},
+#     'Bob': {'ham sandwiches': 3, 'apples': 2},
+#     'Carol': {'cups': 3, 'apple pies': 1}
+# }
 
-def total_brought(guests, item):
-    return sum(guest.get(item, 0) for guest in guests.values())
+# def total_brought(guests, item):
+#     return sum(guest.get(item, 0) for guest in guests.values())
 
-print('Number of things being brought:')
-items = ['apples', 'cups', 'cakes', 'ham sandwiches', 'apple pies']
-for item in items:
-    print(f' - {item.title()}: {total_brought(all_guests, item)}')
+# print('Number of things being brought:')
+# items = ['apples', 'cups', 'cakes', 'ham sandwiches', 'apple pies']
+# for item in items:
+#     print(f' - {item.title()}: {total_brought(all_guests, item)}')
+    
