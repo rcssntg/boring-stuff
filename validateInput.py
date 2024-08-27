@@ -10,4 +10,4 @@ while True:
     password =  input()
     if password.isalnum():
         break
-    print('Password can only have letters and numbers')
+    print('Password can only have letters and numbers')   
